@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XYZ BANK</title>
+</head>
+
+<body bgcolor="cornsilk">
+    <h2 align="center">Welcome to Bank of India</h2>
+    <form method="post" action="/account">
+        <table>
+            <tr>
+                <td>Full Name: </td>
+                <td><input type="text" name="name" placeholder="Full Name"></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label>
+                </td>
+
+                <td>
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Phone Number:</td>
+                <td><input type="phone" placeholder="10 digit no." name="no"></td>
+                <td>Email ID:</td>
+                <td><input type="email" placeholder="Email ID." name="email"></td>
+            </tr>
+            <tr>
+                <td>Gardian's Name:</td>
+                <td><input type="text" placeholder="Gardian's name" name="gname"></td>
+                <td>Phone No.</td>
+                <td><input type="tel" placeholder="Gardian's Phone Number" name="gph"></td>
+            </tr>
+
+            <tr>
+                <td>Permanent Address:</td>
+                <td>
+                    <input type="text" placeholder="Address" name="addr">
+                </td>
+                <td>Post office:</td>
+                <td><input type="text" placeholder="Post Office" name="po"></td>
+            </tr>
+            <tr>
+                <td>District:</td>
+                <td>
+                    <select name="district">
+                        <option value="Hoogly">Hoogly</option>
+                        <option value="Hawrah">Hawrah</option>
+                        <option value="Bardwan">Bardwan</option>
+                    </select>
+                </td>
+                <td>State:</td>
+                <td>
+                    <select name="state" id="state">
+                        <option value="West Bengal">West Bengal</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Date of Birth:</td>
+                <td><input type="date" name="dob"></td>
+            </tr>
+            <tr>
+                <td>Marital Status:</td>
+                <td>
+                    <input type="radio" name="marital Status" id="Married">
+                    <label for="married">Married</label>
+                </td>
+                <td>
+                    <input type="radio" name="marital Status" id="Single">
+                    <label for="single">Single</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="fileselect">Upload Photo:</label></td>
+                <td><input type="file" name="photo" id="file"></td>
+            </tr>
+            <tr>
+
+                <td><label for="fileselect">Upload Signature:</label></td>
+                <td><input type="file" name="sign" id="file"></td>
+
+            </tr>
+            <tr>
+                
+                <td><label for="fileselect">Upload Documents:</label></td>
+                <td><input type="file" name="docs" id="file"></td>
+            </tr>
+
+            <tr>
+                <td><input type="submit" name="submit"></td>
+                <td><input type="reset" name="reset"></td>
+            </tr>
+
+        </table>
+
+    </form>
+</body>
+
+</html>

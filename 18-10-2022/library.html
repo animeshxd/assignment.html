@@ -1,0 +1,134 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>library registeration</title>
+</head>
+<body bgcolor="cornsilk">
+	<h2 align="center">Library registeration from</h2>
+	<p>Students Details: </p>
+	<form>
+		<table>
+			<tr>
+				<td>Full Name:</td>
+				<td><input type="text" name="name" id="name"></td>
+				<td>Department:</td>
+				<td>
+					<select name="department" id="department">
+						<option value="BCA">BCA</option>
+						<option value="BBA">BBA</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Semester:</td>
+				<td>
+					<select name="sem" id="sem">
+						<option value="1">I semester</option>
+						<option value="2">II semester</option>
+						<option value="3">III semester</option>
+						<option value="4">IV semester</option>
+						<option value="5">V semester</option>
+						<option value="6">VI semester</option>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td>Gender:</td>
+				<td><input type="radio"name="gender" id="male">
+				<label for ="male">Male</label></td>
+				<td>
+					<input type="radio"name="gender" id="female">
+					<label for ="female">Female</label>
+				</td>
+			</tr>
+			<tr>
+				<td>Date of Birth:</td>
+				<td>
+					<input type="date" name="dob">
+				</td>
+			</tr>
+			
+			<tr>
+				<td colspan="4"><br>Address Details:</td>
+			</tr>
+			<tr>
+                <td>Address:</td>
+                <td>
+                    <input type="text" placeholder="Address" name="addr">
+                </td>
+                <td>Post office:</td>
+                <td><input type="text" placeholder="Post Office" name="po"></td>
+            </tr>
+            <tr>
+                <td>District:</td>
+                <td>
+                    <select name="district">
+                        <option value="Hoogly">Hoogly</option>
+                        <option value="Hawrah">Hawrah</option>
+                        <option value="Bardwan">Bardwan</option>
+                    </select>
+                </td>
+                <td>State:</td>
+                <td>
+                    <select name="state" id="state">
+                        <option value="West Bengal">West Bengal</option>
+                    </select>
+                </td>
+            </tr>
+			<tr>
+				<td>Phone:</td>
+				<td>
+					<input type="tel" name="tel">
+				</td>
+				<td>Email ID:</td>
+				<td><input type="email" name="email"></td>
+			</tr>
+			<tr>
+				<td><br></td>
+			<tr>
+				<td colspan="2">Book Details:</td>
+			</tr>
+			<tr>
+				<td>Book name:</td>
+				<td><input type="text" name="book"></td>
+				<td>Name of Author:</td>
+				<td>
+					<input type="text" name="author">
+				</td>
+			</tr>
+			<tr>
+				<td>Date of issue:</td>
+				<td>
+					<input type="date" name="issueddate">
+				</td>
+				<td>Last Date for Submition:</td>
+				<td>
+					<input type="date" name="lastdate">
+				</td>
+			</tr>
+			<tr>
+				<td colspan="4"><br>In case of late submition of book:</td>
+			</tr>
+			<tr>
+				<td>Submit letter of apology:</td>
+				<td><input type="file" name="apology" id="fileselect"></td>
+			</tr>
+			<tr>
+				<td>Librarian on duty:</td>
+				<td><input type="text" name="incharge"></td>
+			</tr>
+			<tr>
+				<td>Signitue of Librarian:</td>
+				<td>
+					<input type="file" name="Uplode" id="fileselect" >
+				</td>
+			</tr>
+			<tr><td><br></td></tr>
+			<tr>
+				<td><input type="submit"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
